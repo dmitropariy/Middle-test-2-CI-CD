@@ -3,7 +3,7 @@ name: Django CI & Deploy to Heroku
 on:
   push:
     branches:
-      - main  # змінити, якщо твоя гілка інша
+      - main
 
 jobs:
   test-and-deploy:
